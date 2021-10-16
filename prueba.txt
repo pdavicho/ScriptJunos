@@ -1,0 +1,41 @@
+#Rows which start with '#' are treated as a commented row 
+# 
+
+#Created time:,"Sat, 16-Oct-2021 16:03:55"
+#Version -11.4 
+
+# 
+# 
+# 
+
+#Start  - Please do not modify or change this line 
+
+#Section Start - Network Address - Please do not modify or change this line 
+#Explanation for the Column Names 
+# 
+#Name                  - Name of the Address 
+#Domain                - Domains for the Address to be created 
+#Description           - Description for Address 
+#Type                  - Type of the Address. Values can be Network, IPRange or Host 
+#IP Address            - Ip Address(IPv4/IPv6) of the individual host. This field with 'Type' as Host or Network. It can be wildcard ip as well 
+#Subnet Mask/Prefix           - Subnet mask/prefix provided for the IP Address((IPv4/IPv6)) provided in previous column when Type is selected as Network 
+#IP Range Min          - Minimum IP(IPv4) Range in case range is provided. This should be provided when Type is Range 
+#IP Range Max          - Maximum IP(IPv4) Range in case range is provided. This should be provided when Type is Range 
+#Host                  - Host Name of the host address. This should be provided when Type is Host. This field will be ignored if IP Address is provided  
+#Wildcard Mask         - Wildcard mask IP address (IPV4/IPV6) 
+#Address Groups       - Provide the Address Groups for the Address to be created. 
+#                           If Address Group is not present it would be created. 
+#                           More than one Address Groups should be seperated by '|' 
+#Metadata   - Add metadata with Logical Operatos to your Address. 
+#DnsAddressType        - Type of the DNS Address. Values can be ipv4-only or ipv6only 
+# 
+#Name, Description, Type, IP Address, Subnet Mask/Prefix, IP Range Min, IP Range Max, Host, Wildcard Mask, Address Groups, Metadata, DnsAddressType, Domain 
+Host_192.168.200.100,"CRQ_67899",Host,,,,,,,,,,,Global/FW_ATLAS
+Host_192.168.200.101,"CRQ_67899",Host,,,,,,,,,,,Global/FW_ATLAS
+Host_192.168.200.102,"CRQ_67899",Host,,,,,,,,,,,Global/FW_ATLAS
+Host_46.102.152.102,"CRQ_67899",Host,,,,,,,,,,,Global/FW_ATLAS
+Host_23.97.53.14,"CRQ_67899",Host,,,,,,,,,,,Global/FW_ATLAS
+Host_14.245.54.83,"CRQ_67899",Host,,,,,,,,,,,Global/FW_ATLAS
+
+#Section End - Network Address - Please do not modify or change this line 
+#End  - Please do not modify or change this line
