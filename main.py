@@ -112,7 +112,7 @@ def main():
             count = 0
             for line in bandera:
                 if count != len(bandera):
-                    ipsMali = str("Host_{}".format(line.strip())+',"CRQ_{}",'.format(crq_num)+'Host,'+',,,,,,,,,,'+'Global/FW_ATLAS')
+                    ipsMali = str("Host_{}".format(line.strip())+',"CRQ{}",'.format(crq_num)+'Host,'+'{}'.format(line.strip())+',,,,,,,,,,'+'Global/FW_ATLAS')
                     f.write(''.join(ipsMali))
                     f.write('\n')
                     print(ipsMali)
