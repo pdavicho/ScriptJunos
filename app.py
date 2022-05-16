@@ -32,9 +32,9 @@ def main():
     st.title("Pasos a Producción")
 
     ### INFORMACION LADO IZQUIERDO ###
-    st.sidebar.title("OSC Top Solutions Group")
+    st.sidebar.title("Proconty")
     st.sidebar.info('Esta pagina permitira cargar un archivo (.txt), con IPs Maliciosas, para generar el archivo a ser usado en JUNOS')
-    st.sidebar.image('osc1.jpg', width=150)
+    st.sidebar.image('proconty.jpg', width=300)
 
     ### ESTRUCTURA PRINCIPAL ### 
     st.title('IPs MALICIOSAS - Archivo JUNOS')
@@ -142,7 +142,7 @@ def main():
 
 
     st.write('All rights reserved. Developed by David Minango')
-    st.markdown('[OSC - Top Solutions Group](https://osctopsolutionsgroup.com)')
+    st.markdown('[Proconty]')
 
 
 if __name__ == '__main__':
